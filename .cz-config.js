@@ -16,10 +16,11 @@ module.exports = {
     { value: 'minus', name: 'minus:    版本回退' },
     { value: 'del', name: 'del:      删除代码/文件' }
   ],
-  scopes: [],
+  // scopes: ['scope1', 'scope2', 'scope3'],
   messages: {
-    type: '选择更改类型:\n',
-    scope: '更改的范围:\n',
+    type: '选择更改类型:',
+    customScope: '请输入文件修改范围(可选):',
+    // scope: '更改的范围:\n',
     // 如果allowcustomscopes为true，则使用
     // customScope: 'Denote the SCOPE of this change:',
     subject: '简短描述:\n',

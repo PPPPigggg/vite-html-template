@@ -7,7 +7,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "prepare": "husky install",
-    "commit": "git-cz"
+    "commit": "cz-customizable"
   },
   "devDependencies": {
     "@babel/cli": "^7.21.5",
